@@ -74,12 +74,6 @@ This project is made possible by our valuable contributors.
 
 [`MIT License`](./LICENSE)
 
-# Hacktoberfest 2023
-
-Repository designed for beginner to contribute to open-source
-
-![image here](https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png)
-
 ## 🎉 What is [Hacktoberfest](https://hacktoberfest.com)?
 
 Hacktoberfest 2023 is a month-long virtual festival celebrating open-source contributions. It's the perfect entry point for newcomers to the world of open source!
