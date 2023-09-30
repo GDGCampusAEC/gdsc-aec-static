@@ -17,12 +17,12 @@ This is the student-run community site GDSC AEC Chapter using HTML, CSS and Java
 ## 💻 Quickstart
 
 - Assign yourself an [issue](https://github.com/GDSC-AEC-INDIA/gdsc-aec-web/issues) and fork this repo. For more information read [CONTRIBUTING](./CONTRIBUTING.md)
-- Clone repo locally using `git clone https://github.com/gdsc-aec-india/gdsc-aec-web`.
-- After cloning make sure you create a new branch by using `git checkout -b my-branch`.
-- Start making edits in the newly created git branch. Firstly, add your name in the [`CONTRIBUTORS`](./CONTRIBUTORS) file.
+- Clone repo locally using `git clone https://github.com/gdsc-aec-india/gdsc-aec-web`
+- After cloning make sure you create a new branch by using `git checkout -b my-branch`
+- Start making edits in the newly created git branch. Firstly, add your name in the [`CONTRIBUTORS`](./CONTRIBUTORS) file
 - Add the modified/created files to the staging using `git add .`
-- Commit the changes made into the checked out branch using `git commit -m "commit message"`.
-- Push the changes using `git push origin my-branch`.
+- Commit the changes made into the checked out branch using `git commit -m "commit message"`
+- Push the changes using `git push origin my-branch`
 
 Wow, you did it, happy programming!
 
@@ -74,7 +74,11 @@ This project is made possible by our valuable contributors.
 
 [`MIT License`](./LICENSE)
 
+<br />
+
 ## 🎉 What is [Hacktoberfest](https://hacktoberfest.com)?
+
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ijwmdoMc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k8rdfvlf17di6gd9qyh6.jpg" />
 
 Hacktoberfest 2023 is a month-long virtual festival celebrating open-source contributions. It's the perfect entry point for newcomers to the world of open source!
 
@@ -109,4 +113,5 @@ You can contribute to any open source project hosted on GitHub.com between Octob
  Almost every repo looking for help has a CONTRIBUTING.md file in it, read it first!
 
 <h4>Don't: feel intimidated</h4>
+
  Register for an event and learn with a group, or connect with others in the [Discord](https://discord.gg/r5C2yRwqva) chat.
