@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Discussion threads
+    url: https://github.com/gdsc-aec-india/gdsc-aec-web/discussions
+    about: Please ask and answer questions here.
+  - name: Discord Forums
+    url: https://discord.gg/TbYCQmVtWS
+    about: Please join the forums to stay in touch with the maintainers.
