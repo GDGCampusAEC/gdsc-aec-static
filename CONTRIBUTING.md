@@ -10,7 +10,7 @@ Welcome to the GDSC (Google Developer Student Clubs) Official Website repository
 
 ## Getting Started
 
-Certainly! Here's a detailed description of the "Getting Started" points for contributors to the [GDSC AEC India Official Website repository](https://github.com/gdsc-aec-india/gdsc-aec-web):
+Follow the steps below to get started with contributing to [GDSC AEC Official Website](https://github.com/gdsc-aec-india/gdsc-aec-web).
 
 ### 1. Fork the Repository
    - Click the "Fork" button at the top-right corner of the repository page. This action will create a copy (fork) of the GDSC AEC India Official Website repository in your GitHub account.
@@ -84,7 +84,7 @@ Certainly! Here's a detailed description of the "Getting Started" points for con
 ### 10. Open a Pull Request
    - Finally, go to the [Pull Requests](https://github.com/gdsc-aec-india/gdsc-aec-web/pulls) tab of the original repository (GDSC AEC India Official Website).
    - Click the "New Pull Request" button to open a new pull request.
-   - In the pull request description, provide details about the changes you made and why they are valuable.
+   - In the pull request description, provide details about the changes you made and why they are valuable. Make sure the checklist is completed.
    - Our team will review your pull request, offer feedback if needed, and merge it into the main project if everything looks good.
 
 ## Code Style and Guidelines
@@ -108,7 +108,7 @@ To be eligible for Hacktoberfest swags, please make sure to:
 
 - Make at least four valid pull requests during the month of October.
 - Follow our [Hacktoberfest Code of Conduct](https://github.com/GDSC-AEC-INDIA/gdsc-aec-web/blob/main/CODE_OF_CONDUCT.md).
-- Label your pull requests with "Hacktoberfest" to help the maintainers make them count towards your participation.
+- Label your pull requests with "hacktoberfest" to help the maintainers make them count towards your participation.
 
 ## Thank You!
 
