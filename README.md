@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/github/license/gdsc-aec-india/gdsc-aec-web">
     <img src="https://img.shields.io/github/last-commit/gdsc-aec-india/gdsc-aec-web">
     <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgdsc-aec-india%2Fgdsc-aec-web&count_bg=%2379C83D&title_bg=%23555555&icon=gimp.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+    <img src="https://api.netlify.com/api/v1/badges/c432dfd8-3238-4782-baac-40d80621cfe8/deploy-status" />
 </p>
 
 <h6 align="center"><img src="https://cdn.discordapp.com/attachments/1075039716581331065/1141255945519898704/20230816_115007_0000.png" /></p></h6>
