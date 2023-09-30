@@ -11,7 +11,7 @@
 <h6 align="center"><img src="https://cdn.discordapp.com/attachments/1075039716581331065/1141255945519898704/20230816_115007_0000.png" /></p></h6>
 <h1 align="center"><code>&nbsp;GDSC AEC Community Website&nbsp;</code></h1>
 
-This is the student-run community site GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva) or [WhatsApp](https://gdscaec.bio.link) community chats.
+This is the student-run community site GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva).
 
 <br>
 
