@@ -76,7 +76,7 @@ This project is made possible by our valuable contributors.
 
 <br />
 
-## 🎉 What is [Hacktoberfest](https://hacktoberfest.com)?
+# 🎉 What is [Hacktoberfest](https://hacktoberfest.com)?
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ijwmdoMc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k8rdfvlf17di6gd9qyh6.jpg" />
 
@@ -104,7 +104,7 @@ Contributions don't have to be limited to code; they can include documentation u
 
 You can contribute to any open source project hosted on GitHub.com between October 1 and October 31, 2023. Look for issues labeled with "hacktoberfest" or "good-first-issue" on GitHub; these are typically beginner-friendly and easy to tackle.
 
-# Do's and Don'ts of Hacktoberfest
+## Do's and Don'ts of Hacktoberfest
 
 <h4>Don't: open pull requests with minor text edits on other people's repositories</h4>
  If you're looking for a faster way to open four PR's and win, there's a better way!
