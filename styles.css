@@ -1,1 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Tilt+Prism&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* navigation */
+
+header{
+    background-color: black;
+    padding: 0 10px 0 10px;
+}
+nav{
+    max-width: 1100px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    height: 100%;
+    border-radius: 50%;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Libre Baskerville', serif;
+
+
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.menu li a:hover{
+    color: aqua;
+    text-decoration: underline;
+
+   
+}
+.hamberg{
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+}
+.hamberg:hover{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width:650px) {
+    .menu{
+        display: none;
+    }
+    .hamberg{
+        display: block;
+    }
+}
 
