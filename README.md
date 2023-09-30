@@ -26,7 +26,12 @@ This is the student-run community site GDSC AEC Chapter using HTML, CSS and Java
 - Commit the changes made into the checked out branch using `git commit -m "commit message"`
 - Push the changes using `git push origin my-branch`
 
-Wow, you did it, happy programming!
+And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
+
+ - ⭐ Star the project
+ - Tweet about it
+ - Refer this project in your Linkedin posts
+ - Mention the project at local meetups and tell your friends/colleagues
 
 <h6><code>Note 1:</code>
 
