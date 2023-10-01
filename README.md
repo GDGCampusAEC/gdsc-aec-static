@@ -49,7 +49,7 @@ Once an issue is assigned to an individual (and one individual only at a time) w
 
 ## ✨ Contributing
 
-By contributing to this repository, you adhere to the rules in our [Code of Conduct](./.github/CODE_OF_CONDUCT.md). Here are a few general instructions for people willing to develop onto the codebase.
+By contributing to this repository, you adhere to the rules in our [Code of Conduct](./CODE_OF_CONDUCT.md). Here are a few general instructions for people willing to develop onto the codebase.
 
 ### • Create issues to discuss your ideas with the maintainers
 
