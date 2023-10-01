@@ -8,9 +8,8 @@
     <img src="https://api.netlify.com/api/v1/badges/c432dfd8-3238-4782-baac-40d80621cfe8/deploy-status" />
 </p>
 
-<h6 align="center"><img src="https://raw.githubusercontent.com/gdsc-aec-india/gdsc-aec-web/main/assets/GDSC%20AEC%20BANNER.png" /></p></h6>
+<h6 align="center"><img src="https://raw.githubusercontent.com/gdsc-aec-india/gdsc-aec-web/main/assets/GDSC%20AEC%20BANNER.jpg" /></p></h6>
 <h1 align="center"><code>&nbsp;GDSC AEC Community Website&nbsp;</code></h1>
-
 
 This is the student-run community site GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva) community chats and feel free to [connect with us](https://gdscaec.bio.link).
 
@@ -18,20 +17,20 @@ This is the student-run community site GDSC AEC Chapter using HTML, CSS and Java
 
 ## 💻 Quickstart
 
-- Assign yourself an [issue](https://github.com/GDSC-AEC-INDIA/gdsc-aec-web/issues) and fork this repo. For more information read [CONTRIBUTING](./CONTRIBUTING.md)
-- Clone repo locally using `git clone https://github.com/gdsc-aec-india/gdsc-aec-web`
-- After cloning make sure you create a new branch by using `git checkout -b my-branch`
-- Start making edits in the newly created git branch. Firstly, add your name in the [`CONTRIBUTORS`](./CONTRIBUTORS) file
-- Add the modified/created files to the staging using `git add .`
-- Commit the changes made into the checked out branch using `git commit -m "commit message"`
-- Push the changes using `git push origin my-branch`
+-   Assign yourself an [issue](https://github.com/GDSC-AEC-INDIA/gdsc-aec-web/issues) and fork this repo. For more information read [CONTRIBUTING](./CONTRIBUTING.md)
+-   Clone repo locally using `git clone https://github.com/gdsc-aec-india/gdsc-aec-web`
+-   After cloning make sure you create a new branch by using `git checkout -b my-branch`
+-   Start making edits in the newly created git branch. Firstly, add your name in the [`CONTRIBUTORS`](./CONTRIBUTORS) file
+-   Add the modified/created files to the staging using `git add .`
+-   Commit the changes made into the checked out branch using `git commit -m "commit message"`
+-   Push the changes using `git push origin my-branch`
 
 And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
 
- - ⭐ Star the project
- - Tweet about it
- - Refer this project in your Linkedin posts
- - Mention the project at local meetups and tell your friends/colleagues
+-   ⭐ Star the project
+-   Tweet about it
+-   Refer this project in your Linkedin posts
+-   Mention the project at local meetups and tell your friends/colleagues
 
 <h6><code>Note 1:</code>
 
@@ -121,4 +120,4 @@ You can contribute to any open source project hosted on GitHub.com between Octob
 
 <h4>Don't: feel intimidated</h4>
 
- Register for an event and learn with a group, or connect with others in the [Discord](https://discord.gg/r5C2yRwqva) chat.
+Register for an event and learn with a group, or connect with others in the [Discord](https://discord.gg/r5C2yRwqva) chat.
