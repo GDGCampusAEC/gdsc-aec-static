@@ -22,6 +22,10 @@ nav .logo a {
     text-decoration: none;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.logo img {
+    max-width: 70px;
+    mix-blend-mode: darken;
+}
 nav .menu {
     display: flex;
     align-items: center;
