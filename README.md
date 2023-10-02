@@ -8,15 +8,14 @@
     <img src="https://api.netlify.com/api/v1/badges/c432dfd8-3238-4782-baac-40d80621cfe8/deploy-status" />
 </p>
 
-<h6 align="center"><img src="https://deploy-preview-19--gdscaec.netlify.app/assets/GDSC%20AEC%20BANNER.jpg" /></p></h6>
+<h6 align="center"><img src="./assets/GDSC%20AEC%20BANNER.jpg" /></p></h6>
 <h1 align="center"><code>&nbsp;GDSC AEC Community Website&nbsp;</code></h1>
 
 This is the student-run community site GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva) community chats and feel free to [connect with us](https://gdscaec.bio.link).
 
 <br>
 
-- Check out the website's [`Figma`](https://www.figma.com/file/L2GYK3G0lOmUj9Hsciqqar/Untitled?type=design&mode=design&t=0cblAidI2uXu7g5j-1)
-
+-   Check out the website's [`Figma`](https://www.figma.com/file/L2GYK3G0lOmUj9Hsciqqar/Untitled?type=design&mode=design&t=0cblAidI2uXu7g5j-1)
 
 ## 💻 Quickstart
 
