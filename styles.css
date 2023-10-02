@@ -9,6 +9,7 @@ body {
     height: 100%;
     scroll-behavior: smooth;
 }
+/* Navabar */
 nav {
     display: flex;
     align-items: center;
@@ -35,6 +36,7 @@ li a {
     text-transform: uppercase;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+/* Hero Section  */
 #hero {
     height: calc(100vh - 80px);
     width: 100%;
@@ -66,5 +68,5 @@ li a {
     background-color: transparent;
 }
 .hero-image img {
-    width: 400px;
+    max-width: 400px;
 }
