@@ -15,6 +15,9 @@ This is the student-run community site GDSC AEC Chapter using HTML, CSS and Java
 
 <br>
 
+- Check out the website's [`Figma`](https://www.figma.com/file/L2GYK3G0lOmUj9Hsciqqar/Untitled?type=design&mode=design&t=0cblAidI2uXu7g5j-1)
+
+
 ## 💻 Quickstart
 
 -   Assign yourself an [issue](https://github.com/GDSC-AEC-INDIA/gdsc-aec-web/issues) and fork this repo. For more information read [CONTRIBUTING](./CONTRIBUTING.md)
