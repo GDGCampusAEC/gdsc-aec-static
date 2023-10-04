@@ -7,41 +7,61 @@
     <title>GDSC Club Name</title>
 
     <!-- Include CSS stylesheets and other meta tags here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <!-- Header Section -->
     <header>
+
+        <!-- Club Logo or Name -->
+        <div class="logo">
+            <a href="index.html"><img src="./assets/GDSC AEC LOGO.png" alt=""></a>
+        </div>
+
         <!-- Navigation Menu -->
         <nav>
-            <!-- Club Logo or Name -->
-            <div class="logo">
-                <a href="index.html"><img src="./assets/GDSC AEC LOGO.png" alt=""></a>
-            </div>
+
             <!-- Menu Items -->
-            <ul class="menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="menu">
+                <a href="#about">About Us</a>
+                <a href="#events">Events</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+
         </nav>
     </header>
 
+    
+
     <!-- Hero Section -->
     <section id="hero">
-        <!-- Hero Text -->
-        <div class="hero-text">
-            <h1>Welcome to GDSC Club Name</h1>
-            <p>Your gateway to learning and innovation.</p>
-            <a href="#events" class="cta-button">View Events</a>
-        </div>
-        <!-- Hero Image or Video -->
-        <div class="hero-image">
+        
+        <!-- Hero Image -->
+        <div class="hero--image">
             <img src="./assets/GDSC AEC BANNER.jpg" alt="GDSC Club Hero Image">
         </div>
+
+        <!-- Hero Content -->
+        <div class="hero--content">
+
+            <!-- Hero Text Content -->
+            <div class="hero--text">
+                <h1>Welcome to <span style="color: var(--red)">G</span><span style="color: var(--green)">D</span><span style="color: var(--blue)">S</span><span style="color: var(--yellow)">C</span> <span style="color: var(--red)">A</span><span style="color: var(--green)">E</span><span style="color: var(--blue)">C</span></h1>
+                <p>Your gateway to learning and innovation.</p>
+            </div>
+            
+            <!-- Hero button -->
+            <a href="#events" class="hero--button">View Events</a>
+
+        </div>
     </section>
+
+
 
     <!-- About Section -->
     <section id="about">
