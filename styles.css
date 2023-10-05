@@ -23,7 +23,7 @@ body {
 
 
 /* Navabar */
-.logo img {
+/* .logo img {
     max-width: 100px;
     mix-blend-mode: darken;
 }
@@ -62,7 +62,7 @@ header {
     display: flex;
     align-items: center;
     padding: 30px 80px;
-}
+} */
 
 
 /* Hero Section  */
@@ -79,8 +79,10 @@ header {
 }
 
 .hero--image img {
-    width: 100%;
+    /* width: 70%; */
+    max-width: 1536px;
     height: auto;
+    /* margin: 0 auto; */
 }
 
 .hero--content {
@@ -93,17 +95,17 @@ header {
 }
 
 .hero--content h1 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .hero--content p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .hero--button {
     text-decoration: none;
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: var(--blue);
     color: white;
     padding: 10px 30px;
