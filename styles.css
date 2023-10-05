@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+/* Global Variables */
+:root {
+    --red: #EA4335;
+    --green: #34A853;
+    --blue: #4285F4;
+    --yellow: #FBC005;
+}
+
+
+/* Navabar */
+/* .logo img {
+    max-width: 100px;
+    mix-blend-mode: darken;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+    padding: 20px 60px;
+    border-radius: 200px;
+    font-weight: 400;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 0.2);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 80px;
+} */
+
+
+/* Hero Section  */
+#hero {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--image img {
+    /* width: 70%; */
+    max-width: 1536px;
+    height: auto;
+    /* margin: 0 auto; */
+}
+
+.hero--content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.hero--content h1 {
+    font-size: 3rem;
+}
+
+.hero--content p {
+    font-size: 1.5rem;
+}
+
+.hero--button {
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 30px;
+    max-width: 250px;
+}
+
+.hero--button:hover {
+    opacity: 0.9;
+}
+
