@@ -115,4 +115,53 @@ header {
 .hero--button:hover {
     opacity: 0.9;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+.contact .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width:100%;
+
+
+}
+.contact .form .name{
+    width: 50%;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding:10px 5px;
+}
+.contact .form .email{
+    width: 50%;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding:10px 5px;
+}
+.contact .form .message{
+    width: 50%;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding:10px 5px;
+
+}
+.contact .form .btn{
+    background-color: #4285F4;
+    color:#fff;
+    width: 50%;
+    
+    border-radius: 5px;
+    padding:10px 5px;}
+
+    .contact .form .btn:hover{
+        background-color: #34A853;
+        
+    }
 
