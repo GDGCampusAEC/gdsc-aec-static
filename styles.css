@@ -116,3 +116,92 @@ header {
     opacity: 0.9;
 }
 
+.hero--text h1{
+    font-weight: 600;
+    transition:0.5s;
+    text-shadow: 0 0 2px #000;
+
+}
+
+.hero--text h1:hover{
+    -webkit-text-stroke: 2px #edeced;
+    color: transparent;
+}
+
+#about h2{
+    text-align: center;
+}
+#events h2{
+    text-align: center;
+}
+
+#team h2{
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    box-shadow: rgba(102, 104, 127, 0.37) 8px 10px 32px 0px;
+    backdrop-filter: blur( 24.5px );
+    background: moccasin;
+    border-radius: 30px;
+    border: 1px solid #edeced;
+    display: block;
+    margin: 4vw 20vw 2vw 20vw;
+}
+
+#contact h2{
+    font-weight: 600;
+    transition:0.5s;
+    text-shadow: 0 0 2px #000;
+}
+
+#contact h2:hover{
+    -webkit-text-stroke: 2px #edeced;
+    color: transparent;
+}
+
+form input {
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    border-color: aliceblue;
+    margin: 0 auto 10px;
+    width: 20vw;
+}
+
+form textarea{
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    border-color: aliceblue;
+    margin: 0 auto 10px;
+    width: 40vw;
+}
+
+form button{
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    border-color: aliceblue;
+    margin: 0 auto 10px;
+    width: 100px;
+    font-weight: 200;
+    transition:0.5s;
+    text-shadow: 0 0 2px #000;
+}
+form button:hover{
+    -webkit-text-stroke: 2px #090709;
+    color: transparent;
+}
+
+footer #footer_bg {
+    background: url("https://im.ezgif.com/tmp/ezgif-1-e73e6eec5b.gif") no-repeat scroll center 0;
+    position: bottom;
+    bottom:0;
+    width: 100vw center;
+    height:15vw;
+    
+
+}
+
