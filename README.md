@@ -11,7 +11,9 @@
 <h6 align="center"><img src="./assets/GDSC%20AEC%20BANNER.jpg" /></p></h6>
 <h1 align="center"><code>&nbsp;GDSC AEC Community Website&nbsp;</code></h1>
 
-This is the student-run community site GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva) community chats and feel free to [connect with us](https://gdscaec.bio.link).
+<a href="https://gdsc.community.dev/asansol-engineering-college-asansol/"> GDSC AEC </a> is a community group for students interested in Google technologies. It is the student-run community site of GDSC AEC Chapter using HTML, CSS and JavaScript. We aim to create a space for students to learn and collaborate on various Google technologies and open-source projects. Our community has already conducted a workshop on 'Introduction to Web Technologies' in addition to hosting 'Speaker Sessions' on various topics including <a href="https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-introduction-to-google-cloud-study-jam/"> Google Cloud Programming </a> and <a href="https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-dsa-essentials-building-blocks-for-placements-and-cp/cohost-asansol-engineering-college-asansol"> DSA: The building blocks for CP. </a>. Joining our fraternity might help you with networking opportunities, skill development, and the chance to work on projects that can make a real impact.
+
+ For any queries join our [Discord](https://discord.gg/r5C2yRwqva) community chats and feel free to [connect with us](https://gdscaec.bio.link).
 
 <br>
 
