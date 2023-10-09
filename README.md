@@ -8,12 +8,18 @@
     <img src="https://api.netlify.com/api/v1/badges/c432dfd8-3238-4782-baac-40d80621cfe8/deploy-status" />
 </p>
 
-<h6 align="center"><img src="https://raw.githubusercontent.com/gdsc-aec-india/gdsc-aec-web/main/assets/GDSC%20AEC%20BANNER.jpg" /></p></h6>
+<h6 align="center"><img src="./assets/GDSC%20AEC%20BANNER.jpg" /></p></h6>
 <h1 align="center"><code>&nbsp;GDSC AEC Community Website&nbsp;</code></h1>
 
-This is the student-run community site GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva) community chats and feel free to [connect with us](https://gdscaec.bio.link).
+<a href="https://gdsc.community.dev/asansol-engineering-college-asansol/"> GDSC AEC </a>  is the official Google Developer Student Club (GDSC) of Asansol Engineering College (AEC). It is a community group for students who are passionate about technology, software development and innovation. We also host events such as codesprints, tech talks, and workshops that aim to foster creativity, problem-solving skills, and a deeper understanding of Google technologies. One of our main aims is to be inclusive and open to students of all experience levels, including those who are new to technology and programming. Joining our fraternity might help you with networking opportunities, skill development, and the chance to work on projects that can make a real impact.
+
+This repository has been created as an effort to encourage open source contributions as well as to help people get acquainted with Hacktoberfest.
+
+ This is the student-run community site of GDSC AEC Chapter using HTML, CSS and JavaScript. For any queries join our [Discord](https://discord.gg/r5C2yRwqva) community chats and feel free to [connect with us](https://gdscaec.bio.link).
 
 <br>
+
+-   Check out the website's [`Figma`](https://www.figma.com/file/L2GYK3G0lOmUj9Hsciqqar/Untitled?type=design&mode=design&t=0cblAidI2uXu7g5j-1)
 
 ## 💻 Quickstart
 
@@ -42,7 +48,7 @@ Once an issue is assigned to an individual (and one individual only at a time) w
 
 ## ⚒️ Tools and Frameworks
 
-<h6 align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-CC6699?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-FFFFFF?style=for-the-badge&logo=Bootstrap&logoColor=purple"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white"></h6>
+<h6 align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-CC6699?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-FFFFFF?style=for-the-badge&logo=Bootstrap&logoColor=purple"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  <img src="https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white"></h6>
 
 <br>
 
