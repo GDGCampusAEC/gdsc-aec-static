@@ -191,13 +191,44 @@ form button:hover {
     color: transparent;
 }
 
-footer #footer_bg {
-    background: url("https://im.ezgif.com/tmp/ezgif-1-e73e6eec5b.gif") no-repeat
-        scroll center 0;
-    position: bottom;
+/* footer section */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: black;
+    height: 58vh;
+    width: 100%;
+    color: grey;
+    position: relative;
     bottom: 0;
-    width: 100vw center;
-    height: 15vw;
+
+}
+.f-info-socials i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.f-info-socials i:hover{
+    font-weight: 500;
+    color: #E2DFD2;
+}
+
+.f-info-links a{
+    color: gray;
+    text-decoration: none;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #E2DFD2;
+}
+
+.f-bottom p{
+    margin-left: 2rem;
+    text-align: justify;
+    font-size: 6rem;
 }
 
 /* Team Section  */
