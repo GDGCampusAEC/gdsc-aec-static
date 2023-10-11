@@ -195,10 +195,12 @@ form button:hover {
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .footer{
     background-color: black;
-    height: 58vh;
+    height: 66vh;
     width: 100%;
     color: grey;
     position: relative;
@@ -220,7 +222,7 @@ form button:hover {
     text-decoration: none;
 }
 
-.f-info-links a:hover{
+.f-info-links a:hover, .links li:hover{
     text-decoration: underline;
     color: #E2DFD2;
 }
@@ -228,7 +230,20 @@ form button:hover {
 .f-bottom p{
     margin-left: 2rem;
     text-align: justify;
-    font-size: 6rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 9rem;
+}
+
+.f-copyInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
 }
 
 /* Team Section  */
