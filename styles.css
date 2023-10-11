@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-html,
+
 body {
     width: 100%;
     height: 100%;
@@ -124,9 +124,57 @@ header {
     color: transparent;
 }
 
-#about h2 {
-    text-align: center;
+#about{
+    height:44vw;
 }
+.para{
+    line-height: 0;
+    width:60vw;
+    z-index: 2;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 75vw;
+    left: 6vw;
+}
+.box{
+    height:25vw;
+    width:70vw;
+    position: absolute;
+    top: 70vw;
+    left: 0;
+    background:transparent; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); 
+    border: 15px white solid;
+    border-radius: 0 10vw 10vw 0;
+    z-index: 1;
+}
+
+.about-us h1{
+    margin: 2rem 0;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #ff5733, #3498db);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 5vw 0vw 0vw 0vw;
+}
+.about1{
+    position: absolute;
+    top: 60vw;
+    right: 0;
+    height:13vw;
+}
+.about2{
+    position: absolute;
+    top: 79vw;
+    right: 6vw;
+    height:25vw;
+}
+
 #events h2 {
     text-align: center;
 }
