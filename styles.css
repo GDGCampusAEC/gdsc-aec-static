@@ -352,12 +352,13 @@ footer #footer_bg {
     column-gap: 10rem;
 }
 
+/* responsiveness for large screen  */
 @media (min-width: 1024px) {
     .team-bg-img img:nth-child(7) {
         display: none;
     }
 }
-
+/* responsiveness for small devices  */
 @media (max-width: 500px) {
     #hero {
         gap: 2rem;
