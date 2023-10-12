@@ -379,6 +379,13 @@ form button:hover {
     top: 250rem;
     transform: rotate(180deg);
 }
+.team-bg-img img:nth-child(7) {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: -200px;
+    top: 300rem;
+}
 
 .img-wrapper {
     width: 100%;
@@ -391,18 +398,25 @@ form button:hover {
     background-color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     padding: 20px 40px;
-    border-radius: 2px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
 }
-
+.team-card:hover {
+    transform: scale(1.05);
+}
 .social-media-links {
     width: 125px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .social-media-links a i {
     color: #000;
     font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+.social-media-links a i:hover {
+    transform: translateY(5px);
 }
 
 .name {
@@ -432,6 +446,13 @@ form button:hover {
     column-gap: 10rem;
 }
 
+/* responsiveness for large screen  */
+@media (min-width: 1024px) {
+    .team-bg-img img:nth-child(7) {
+        display: none;
+    }
+}
+/* responsiveness for small devices  */
 @media (max-width: 500px) {
     #hero {
         gap: 2rem;
@@ -452,11 +473,41 @@ form button:hover {
     .container-block {
         grid-template-columns: repeat(1, 1fr);
     }
+    .container-block h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
     .multiple-cards {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 0;
     }
-    .team-bg-img img {
-        display: none;
+    .team-bg-img img:nth-child(1) {
+        width: 277px;
+        left: -210px;
+    }
+    .team-bg-img img:nth-child(2) {
+        width: 277px;
+        right: -195px;
+    }
+    .team-bg-img img:nth-child(3) {
+        width: 277px;
+    }
+    .team-bg-img img:nth-child(4) {
+        width: 277px;
+        right: -195px;
+    }
+    .team-bg-img img:nth-child(5) {
+        width: 277px;
+    }
+    .team-bg-img img:nth-child(6) {
+        width: 277px;
+        right: -195px;
+    }
+    .team-bg-img img:nth-child(7) {
+        width: 277px;
+    }
+    .team-card {
+        width: 250px;
+        margin: 0 auto;
     }
 }
