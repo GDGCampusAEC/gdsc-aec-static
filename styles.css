@@ -200,7 +200,7 @@ header {
     height: inherit;
     display: flex;
     /*justify-content:flex-start;*/
-    gap: 10px;
+    gap: 25px;
     position: absolute;
     top:0%;
     left:0%;
