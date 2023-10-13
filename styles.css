@@ -174,9 +174,105 @@ header {
     right: 6vw;
     height:25vw;
 }
+/*Event-Section*/
+#events{
+   /* border: 1px solid black;*/
+    margin: 7vw 0;
+}
 
 #events h2 {
     text-align: center;
+    margin-bottom: 2vw;
+    color:#1765cc;
+    
+}
+ .event_content {
+    width: 95vw;
+    height: 365px;
+    position: relative;
+    /*border: 2px solid black;*/
+    padding: 1vw;
+    
+    }
+  
+  .event_parent{
+    width:inherit;
+    height: inherit;
+    display: flex;
+    /*justify-content:flex-start;*/
+    gap: 25px;
+    position: absolute;
+    top:0%;
+    left:0%;
+    
+  }
+  .event {
+    border: 2px solid #dadce0;
+    background: #fff;
+    border-radius: 8px;
+    width: 340px;
+    height: 355px;
+    padding: 0.9vw;
+  }
+
+ .event_image{
+    display: flex;
+    justify-content: center;
+   /* border: 1px solid black;*/
+  }
+.event_image img {
+    width: 300px;
+    /*border: 2px solid black;*/
+    
+}
+  button {
+    background-color: #1765cc;
+    color: white;
+    border: none;
+    border-radius: 0.3vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    padding: 0.5vw 1.5vw;
+    margin: 0.4vw 0;
+  }
+  .event a{
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  .date,
+  .location {
+    color: #888;
+    text-align: start;
+    font-size: 15px;
+    padding: 0;
+    margin: 8px 0;
+  }
+  .heading {
+    color: #333;
+    text-align: left;
+    font-size: 15px;
+    padding: 0;
+    margin: 8px 0;
+  }
+
+
+  .primary {
+    animation: primary 20s linear infinite;
+    
+
+  }
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  .event_parent:hover{
+    animation-play-state: paused;
 }
 
 #team h2 {
