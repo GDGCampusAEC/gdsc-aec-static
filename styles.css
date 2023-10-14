@@ -553,6 +553,7 @@ form button:hover {
     justify-content: center;
     gap: 4rem;
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
 }
 
 .last-card {
