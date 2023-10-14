@@ -395,8 +395,10 @@ form button:hover {
     position: relative;
 }
 .container-block {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5rem;
+    /* grid-template-columns: repeat(1, 1fr); */
     place-items: center;
     width: 100%;
     margin: 0 auto;
@@ -416,16 +418,24 @@ form button:hover {
     content: "Meet Our Team";
 }
 
-.team-card-container:nth-child(odd) .team-card {
+.team-card-container:nth-child(n) .team-card {
     border-bottom: 4px solid #ea4335;
 }
 
-.team-card-container:nth-child(even) .team-card {
+.team-card-container:nth-child(n + 2) .team-card {
+    border-bottom: 4px solid #ea4335;
+}
+
+.team-card-container:nth-child(2n + 2) .team-card {
     border-bottom: 4px solid #fbc005;
 }
 
-.team-card-container:nth-child(n + 4) .team-card {
+.team-card-container:nth-child(3n + 2) .team-card {
     border-bottom: 4px solid #4285f4;
+}
+
+.team-card-container:nth-child(4n + 2) .team-card {
+    border-bottom: 4px solid #3cba54;
 }
 
 .team-bg-img {
@@ -476,6 +486,7 @@ form button:hover {
     transform: rotate(180deg);
 }
 .team-bg-img img:nth-child(7) {
+    display: none;
     position: absolute;
     width: 300px;
     height: auto;
@@ -508,7 +519,7 @@ form button:hover {
 
 .social-media-links a i {
     color: #000;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     transition: all 0.3s ease-in-out;
 }
 .social-media-links a i:hover {
@@ -516,7 +527,7 @@ form button:hover {
 }
 
 .name {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -531,15 +542,21 @@ form button:hover {
 }
 
 .team-card-container {
-    width: 350px;
+    width: 320px;
     margin: 0 0 40px 0;
 }
 
 .multiple-cards {
+    width: fit-content;
     display: grid;
+    justify-content: center;
+    gap: 5rem;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 5rem;
-    column-gap: 10rem;
+}
+
+.last-card {
+   grid-column: 1/-1;
+   margin: 0 auto;
 }
 
 /* responsiveness for large screen  */
@@ -547,7 +564,23 @@ form button:hover {
     .team-bg-img img:nth-child(7) {
         display: none;
     }
+
+    .multiple-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-bg-img img:nth-child(5) {
+        display: none;
+    }
+    .team-bg-img img:nth-child(6) {
+        display: none;
+    }
+
+    .last-card {
+        grid-column: 3;
+    }
 }
+
 /* responsiveness for small devices  */
 @media (max-width: 500px) {
     #hero {
@@ -605,5 +638,16 @@ form button:hover {
     .team-card {
         width: 250px;
         margin: 0 auto;
+    }
+}
+
+/* responsiveness for screen < 720px */
+@media (max-width: 719px) {
+    .multiple-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-bg-img img:nth-child(7) {
+        display: block;
     }
 }
