@@ -190,6 +190,7 @@ p {
 .hero-anime{
     margin-bottom: 5rem;
 }
+
 body.hero-anime p {
     opacity: 0;
     transform: translateY(40px);
