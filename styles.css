@@ -391,18 +391,17 @@ form button:hover {
 }
 
 /* Team Section  */
-.team {
+#team {
+    width: 100vw;
     position: relative;
+    background-color: #fff;
 }
 .container-block {
-    width: 100%;
     display: grid;
     row-gap: 5rem;
-    /* grid-template-columns: repeat(1, 1fr); */
+    justify-content: center;
     place-items: center;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #fff;
+    margin: auto;
 }
 .container-block h1 {
     margin: 2rem 0;
@@ -443,55 +442,65 @@ form button:hover {
 }
 .team-bg-img img:nth-child(1) {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    left: -200px;
+    left: -165px;
 }
 .team-bg-img img:nth-child(2) {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    right: -200px;
+    right: -150px;
     top: 50rem;
     transform: rotate(180deg);
 }
 .team-bg-img img:nth-child(3) {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    left: -200px;
+    left: -165px;
     top: 100rem;
 }
 .team-bg-img img:nth-child(4) {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    right: -200px;
+    right: -150px;
     top: 150rem;
     transform: rotate(180deg);
 }
 .team-bg-img img:nth-child(5) {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    left: -200px;
+    left: -165px;
     top: 200rem;
 }
 .team-bg-img img:nth-child(6) {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    right: -200px;
+    right: -150px;
     top: 250rem;
     transform: rotate(180deg);
 }
 .team-bg-img img:nth-child(7) {
     display: none;
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: auto;
-    left: -200px;
+    left: -165px;
     top: 300rem;
+}
+
+.team-bg-img img:nth-child(8) {
+    display: none;
+    position: absolute;
+    width: 240px;
+    height: auto;
+    right: -150px;
+    top: 350rem;
+    transform: rotate(180deg);
 }
 
 .img-wrapper {
@@ -499,8 +508,8 @@ form button:hover {
 }
 
 .team-card {
-    width: 290px;
-    /* margin: auto; */
+    /* width: 290px; */
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -531,6 +540,7 @@ form button:hover {
 .name {
     font-size: 20px;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .position {
@@ -544,7 +554,7 @@ form button:hover {
 }
 
 .team-card-container {
-    width: 320px;
+    width: 260px;
     margin: 0 0 40px 0;
 }
 
@@ -637,6 +647,11 @@ form button:hover {
     .team-bg-img img:nth-child(7) {
         width: 277px;
     }
+
+    .team-bg-img img:nth-child(8) {
+        width: 277px;
+    }
+
     .team-card {
         width: 250px;
         margin: 0 auto;
@@ -650,6 +665,10 @@ form button:hover {
     }
 
     .team-bg-img img:nth-child(7) {
+        display: block;
+    }
+
+    .team-bg-img img:nth-child(8) {
         display: block;
     }
 }
