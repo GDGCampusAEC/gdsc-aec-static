@@ -503,6 +503,15 @@ form button:hover {
     transform: rotate(180deg);
 }
 
+.team-bg-img img:nth-child(9) {
+    display: none;
+    position: absolute;
+    width: 240px;
+    height: auto;
+    left: -165px;
+    top: 400rem;
+}
+
 .img-wrapper {
     width: 100%;
 }
@@ -563,6 +572,13 @@ form button:hover {
     justify-content: center;
     gap: 4rem;
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+
+.double-cards {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
     margin: auto;
 }
 
@@ -652,6 +668,10 @@ form button:hover {
         width: 277px;
     }
 
+    .team-bg-img img:nth-child(9) {
+        width: 277px;
+    }
+
     .team-card {
         width: 250px;
         margin: 0 auto;
@@ -669,6 +689,10 @@ form button:hover {
     }
 
     .team-bg-img img:nth-child(8) {
+        display: block;
+    }
+
+    .team-bg-img img:nth-child(9) {
         display: block;
     }
 }
