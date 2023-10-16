@@ -393,15 +393,18 @@ form button:hover {
 /* Team Section  */
 #team {
     width: 100vw;
+    margin: auto;
     position: relative;
     background-color: #fff;
 }
 .container-block {
     display: grid;
+    width: 100vw;
     row-gap: 5rem;
     justify-content: center;
     place-items: center;
     margin: auto;
+    overflow: hidden;
 }
 .container-block h1 {
     margin: 2rem auto;
@@ -450,7 +453,7 @@ form button:hover {
     position: absolute;
     width: 240px;
     height: auto;
-    right: -150px;
+    right: -165px;
     top: 50rem;
     transform: rotate(180deg);
 }
@@ -465,7 +468,7 @@ form button:hover {
     position: absolute;
     width: 240px;
     height: auto;
-    right: -150px;
+    right: -165px;
     top: 150rem;
     transform: rotate(180deg);
 }
@@ -481,7 +484,7 @@ form button:hover {
     position: absolute;
     width: 240px;
     height: auto;
-    right: -150px;
+    right: -165px;
     top: 250rem;
     transform: rotate(180deg);
 }
@@ -515,6 +518,7 @@ form button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     padding: 20px 40px;
@@ -576,6 +580,13 @@ form button:hover {
     margin: auto;
 }
 
+.single-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
 /* responsiveness for large screen  */
 @media (min-width: 1024px) {
     .team-bg-img img:nth-child(7) {
@@ -620,10 +631,12 @@ form button:hover {
 @media (max-width: 719px) {
     .multiple-cards {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        row-gap: 0;
     }
 
     .container-block h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 600;
     }
 
@@ -634,47 +647,42 @@ form button:hover {
     .container-block {
         grid-template-columns: repeat(1, 1fr);
     }
-    
-    .multiple-cards {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 0;
-    }
 
     .team-bg-img img:nth-child(1) {
         width: 220px;
-        left: -155px;
+        left: -160px;
     }
     .team-bg-img img:nth-child(2) {
         width: 220px;
-        right: -140px;
+        right: -160px;
     }
     .team-bg-img img:nth-child(3) {
         width: 220px;
-        left: -155px;;
+        left: -160px;;
     }
     .team-bg-img img:nth-child(4) {
         width: 220px;
-        right: -140px;
+        right: -160px;
     }
     .team-bg-img img:nth-child(5) {
         width: 220px;
-        left: -155px;;
+        left: -160px;;
     }
     .team-bg-img img:nth-child(6) {
         display: block;
         width: 220px;
-        right: -140px;
+        right: -160px;
     }
     .team-bg-img img:nth-child(7) {
         display: block;
         width: 220px;
-        left: -155px;
+        left: -160px;
     }
 
     .team-bg-img img:nth-child(8) {
         display: block;
         width: 220px;
-        right: -140px;
+        right: -160px;
     }
 
     .team-card {
