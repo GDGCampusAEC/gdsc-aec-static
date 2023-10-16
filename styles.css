@@ -477,6 +477,7 @@ form button:hover {
     top: 200rem;
 }
 .team-bg-img img:nth-child(6) {
+    display: none;
     position: absolute;
     width: 240px;
     height: auto;
@@ -503,14 +504,6 @@ form button:hover {
     transform: rotate(180deg);
 }
 
-.team-bg-img img:nth-child(9) {
-    display: none;
-    position: absolute;
-    width: 240px;
-    height: auto;
-    left: -165px;
-    top: 400rem;
-}
 
 .img-wrapper {
     width: 100%;
@@ -577,14 +570,10 @@ form button:hover {
 
 .double-cards {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 4rem;
     margin: auto;
-}
-
-.last-card {
-   grid-column: 1/-1;
-   margin: 0 auto;
 }
 
 /* responsiveness for large screen  */
@@ -596,7 +585,7 @@ form button:hover {
     .multiple-cards {
         grid-template-columns: repeat(3, 1fr);
     }
-
+    
     .team-bg-img img:nth-child(5) {
         display: none;
     }
@@ -604,9 +593,6 @@ form button:hover {
         display: none;
     }
 
-    .last-card {
-        grid-column: 3;
-    }
 }
 
 /* responsiveness for small devices  */
@@ -627,17 +613,15 @@ form button:hover {
     .section-head-text {
         text-align: center;
     }
-    .container-block {
+    /* .container-block {
         grid-template-columns: repeat(1, 1fr);
     }
-    .container-block h1 {
-        font-size: 2rem;
-        font-weight: 500;
-    }
+    
     .multiple-cards {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 0;
     }
+
     .team-bg-img img:nth-child(1) {
         width: 277px;
         left: -210px;
@@ -666,6 +650,7 @@ form button:hover {
 
     .team-bg-img img:nth-child(8) {
         width: 277px;
+        right: -195px;
     }
 
     .team-bg-img img:nth-child(9) {
@@ -675,7 +660,7 @@ form button:hover {
     .team-card {
         width: 250px;
         margin: 0 auto;
-    }
+    } */
 }
 
 /* responsiveness for screen < 720px */
@@ -684,7 +669,16 @@ form button:hover {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .team-bg-img img:nth-child(7) {
+    .container-block h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .double-cards {
+        flex-direction: column;
+    }
+
+    /* .team-bg-img img:nth-child(7) {
         display: block;
     }
 
@@ -694,5 +688,52 @@ form button:hover {
 
     .team-bg-img img:nth-child(9) {
         display: block;
+    } */
+
+    .container-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .multiple-cards {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 0;
+    }
+
+    .team-bg-img img:nth-child(1) {
+        width: 220px;
+        left: -160px;
+    }
+    .team-bg-img img:nth-child(2) {
+        width: 220px;
+        right: -145px;
+    }
+    .team-bg-img img:nth-child(3) {
+        width: 220px;
+    }
+    .team-bg-img img:nth-child(4) {
+        width: 220px;
+        right: -145px;
+    }
+    .team-bg-img img:nth-child(5) {
+        width: 220px;
+    }
+    .team-bg-img img:nth-child(6) {
+        width: 220px;
+        right: -145px;
+    }
+    .team-bg-img img:nth-child(7) {
+        display: block;
+        width: 220px;
+    }
+
+    .team-bg-img img:nth-child(8) {
+        display: block;
+        width: 220px;
+        right: -145px;
+    }
+
+    .team-card {
+        width: 250px;
+        margin: 0 auto;
     }
 }
