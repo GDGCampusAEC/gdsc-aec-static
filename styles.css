@@ -513,7 +513,6 @@ form button:hover {
 }
 
 .team-card {
-    /* width: 290px; */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -632,7 +631,7 @@ form button:hover {
     .multiple-cards {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        row-gap: 0;
+        row-gap: 1rem;
     }
 
     .container-block h1 {
@@ -642,10 +641,12 @@ form button:hover {
 
     .double-cards {
         flex-direction: column;
+        row-gap: 1rem;
     }
 
     .container-block {
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 1rem;
     }
 
     .team-bg-img img:nth-child(1) {
