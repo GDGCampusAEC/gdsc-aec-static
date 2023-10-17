@@ -126,19 +126,20 @@ header {
 #about {
     height: 44vw;
 }
+
 .para {
     line-height: 0;
     width: 60vw;
     z-index: 2;
     font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
+    font-family:'Times New Roman', Times, serif;
     position: absolute;
     top: 75vw;
     left: 6vw;
 }
-.box {
-    height: 25vw;
-    width: 70vw;
+.box{
+    height:25vw;
+    width:70vw;
     position: absolute;
     top: 70vw;
     left: 0;
@@ -161,18 +162,19 @@ header {
     text-align: left;
     padding-top: 5vw 0vw 0vw 0vw;
 }
-.about1 {
+.about1{
     position: absolute;
     top: 60vw;
     right: 0;
     height: 13vw;
 }
-.about2 {
+.about2{
     position: absolute;
     top: 79vw;
     right: 6vw;
     height: 25vw;
 }
+
 /*Event-Section*/
 #events {
     /* border: 1px solid black;*/
@@ -182,27 +184,30 @@ header {
 #events h2 {
     text-align: center;
     margin-bottom: 2vw;
-    color: #1765cc;
+    color:#1765cc;
+    
 }
-.event_content {
+ .event_content {
     width: 95vw;
     height: 365px;
     position: relative;
     /*border: 2px solid black;*/
     padding: 1vw;
-}
-
-.event_parent {
-    width: inherit;
+    
+    }
+  
+  .event_parent{
+    width:inherit;
     height: inherit;
     display: flex;
     /*justify-content:flex-start;*/
-    gap: 25px;
+    gap: 35px;
     position: absolute;
-    top: 0%;
-    left: 0%;
-}
-.event {
+    top:0%;
+    left:0%;
+    
+  }
+  .event {
     border: 2px solid #dadce0;
     background: #fff;
     border-radius: 8px;
@@ -214,13 +219,14 @@ header {
 .event_image {
     display: flex;
     justify-content: center;
-    /* border: 1px solid black;*/
-}
+   /* border: 1px solid black;*/
+  }
 .event_image img {
     width: 300px;
     /*border: 2px solid black;*/
+    
 }
-button {
+  button {
     background-color: #1765cc;
     color: white;
     border: none;
@@ -229,40 +235,45 @@ button {
     font-weight: 600;
     padding: 0.5vw 1.5vw;
     margin: 0.4vw 0;
-}
-.event a {
+  }
+  .event a{
     color: white;
     text-decoration: none;
-}
 
-.date,
-.location {
+  }
+  
+  .date,
+  .location {
     color: #888;
     text-align: start;
     font-size: 15px;
     padding: 0;
     margin: 8px 0;
-}
-.heading {
+  }
+  .heading {
     color: #333;
     text-align: left;
     font-size: 15px;
     padding: 0;
     margin: 8px 0;
-}
+  }
 
-.primary {
+
+  .primary {
     animation: primary 20s linear infinite;
-}
-@keyframes primary {
+    
+
+  }
+  @keyframes primary {
     from {
-        left: 0%;
+      left: 0%;
     }
+
     to {
-        left: -100%;
+      left: -100%;
     }
-}
-.event_parent:hover {
+  }
+  .event_parent:hover{
     animation-play-state: paused;
 }
 
@@ -321,6 +332,7 @@ form button {
     transition: 0.5s;
     text-shadow: 0 0 2px #000;
 }
+
 form button:hover {
     -webkit-text-stroke: 2px #090709;
     color: transparent;
@@ -333,7 +345,7 @@ form button:hover {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.footer {
+.footer{
     background-color: black;
     height: 66vh;
     width: 100%;
@@ -341,7 +353,7 @@ form button:hover {
     position: relative;
     bottom: 0;
 }
-.f-info-socials i {
+.f-info-socials i{
     font-size: 2rem;
     margin-right: 1rem;
 }
@@ -388,6 +400,7 @@ form button:hover {
     position: relative;
     background-color: #fff;
 }
+
 .container-block {
     display: grid;
     width: 100vw;
@@ -397,6 +410,7 @@ form button:hover {
     margin: auto;
     overflow: hidden;
 }
+
 .container-block h1 {
     margin: 2rem auto;
     text-transform: uppercase;
@@ -407,6 +421,7 @@ form button:hover {
     font-weight: 800;
     font-size: 3rem;
 }
+
 .container-block h1::before {
     content: "Meet Our Team";
 }
@@ -434,12 +449,14 @@ form button:hover {
 .team-bg-img {
     filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1));
 }
+
 .team-bg-img img:nth-child(1) {
     position: absolute;
     width: 240px;
     height: auto;
     left: -165px;
 }
+
 .team-bg-img img:nth-child(2) {
     position: absolute;
     width: 240px;
@@ -448,6 +465,7 @@ form button:hover {
     top: 50rem;
     transform: rotate(180deg);
 }
+
 .team-bg-img img:nth-child(3) {
     position: absolute;
     width: 240px;
@@ -455,6 +473,7 @@ form button:hover {
     left: -165px;
     top: 100rem;
 }
+
 .team-bg-img img:nth-child(4) {
     position: absolute;
     width: 240px;
@@ -463,6 +482,7 @@ form button:hover {
     top: 150rem;
     transform: rotate(180deg);
 }
+
 .team-bg-img img:nth-child(5) {
     position: absolute;
     width: 240px;
@@ -470,6 +490,7 @@ form button:hover {
     left: -165px;
     top: 200rem;
 }
+
 .team-bg-img img:nth-child(6) {
     display: none;
     position: absolute;
@@ -479,6 +500,7 @@ form button:hover {
     top: 250rem;
     transform: rotate(180deg);
 }
+
 .team-bg-img img:nth-child(7) {
     display: none;
     position: absolute;
@@ -514,9 +536,11 @@ form button:hover {
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
+
 .team-card:hover {
     transform: scale(1.05);
 }
+
 .social-media-links {
     width: 125px;
     display: flex;
@@ -529,6 +553,7 @@ form button:hover {
     font-size: 1.8rem;
     transition: all 0.3s ease-in-out;
 }
+
 .social-media-links a i:hover {
     transform: translateY(5px);
 }
@@ -590,6 +615,7 @@ form button:hover {
     .team-bg-img img:nth-child(5) {
         display: none;
     }
+
     .team-bg-img img:nth-child(6) {
         display: none;
     }
@@ -603,9 +629,11 @@ form button:hover {
         flex-direction: column;
         padding: 0 2rem;
     }
+
     #hero .hero-image img {
         width: 300px;
     }
+
     .outer-container {
         padding: 10px 20px 10px 20px;
     }
@@ -613,6 +641,7 @@ form button:hover {
     .section-head-text {
         text-align: center;
     }
+    
 }
 
 /* responsiveness for screen < 720px */
@@ -642,27 +671,33 @@ form button:hover {
         width: 220px;
         left: -160px;
     }
+
     .team-bg-img img:nth-child(2) {
         width: 220px;
         right: -160px;
     }
+
     .team-bg-img img:nth-child(3) {
         width: 220px;
-        left: -160px;
+        left: -160px;;
     }
+
     .team-bg-img img:nth-child(4) {
         width: 220px;
         right: -160px;
     }
+
     .team-bg-img img:nth-child(5) {
         width: 220px;
-        left: -160px;
+        left: -160px;;
     }
+
     .team-bg-img img:nth-child(6) {
         display: block;
         width: 220px;
         right: -160px;
     }
+
     .team-bg-img img:nth-child(7) {
         display: block;
         width: 220px;

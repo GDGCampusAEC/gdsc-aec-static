@@ -1,0 +1,139 @@
+{
+    "teamMembers": [
+        {
+            "name": "Niraj Modi",
+            "role": "Lead",
+            "linkedinUrl": "https://www.linkedin.com/in/thecodeventurer/",
+            "githubUrl": "https://github.com/TheCodeVenturer",
+            "twitterUrl": "https://twitter.com/TheCodeVenturer",
+            "websiteUrl": "https://thecodeventurer.github.io/",
+            "roleType": 1
+        },
+        {
+            "name": "Jayanta Pandit",
+            "role": "Community Admin",
+            "linkedinUrl": "https://www.linkedin.com/in/panditjay",
+            "githubUrl": "https://github.com/jayzsh",
+            "twitterUrl": "https://x.com/74HSALAK",
+            "websiteUrl": "https://jayantapandit.me",
+            "roleType": 2
+        },
+        {
+            "name": "Bishal Bhattacharjee",
+            "role": "Community Admin",
+            "linkedinUrl": "https://www.linkedin.com/in/bishal-bhattacharjee-805769232/",
+            "githubUrl": "https://github.com/Bishal097",
+            "twitterUrl": "https://twitter.com/Code_by_Bishal",
+            "websiteUrl": "",
+            "roleType": 2
+        },
+        {
+            "name": "Anirban Sinha",
+            "role": "Community Admin",
+            "linkedinUrl": "https://www.linkedin.com/in/anirban-sinha-5181b0231",
+            "githubUrl": "https://github.com/anirban6102",
+            "twitterUrl": "",
+            "websiteUrl": "",
+            "roleType": 2
+        },
+        {
+            "name": "Arnab Chatterjee",
+            "role": "Web Technologies Lead",
+            "linkedinUrl": "https://www.linkedin.com/in/arnab-chatterjee-905ab3219/",
+            "githubUrl": "https://github.com/ArnabChatterjee20k",
+            "twitterUrl": "https://twitter.com/arnabch20k",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Moulina Panday ",
+            "role": "AI/ML Lead",
+            "linkedinUrl": "https://www.linkedin.com/in/moulina-panday-460590215/",
+            "githubUrl": "https://github.com/PandayMoulina",
+            "twitterUrl": "https://twitter.com/Moulina_Panday",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Aditya Shaw",
+            "role": "UI/UX Lead",
+            "linkedinUrl": "https://www.linkedin.com/in/aditya-shaw-216171224",
+            "githubUrl": "https://github.com/AdityaShaw1",
+            "twitterUrl": "https://x.com/Aditya_Shaw_1?t=XH2mWEPwJ_uGWzXGSPaO-g&s=09",
+            "websiteUrl": "https://portfolioadi.super.site/",
+            "roleType": 3
+        },
+        {
+            "name": "Md Amir Khan",
+            "role": "UI/UX Facilitator",
+            "linkedinUrl": "https://www.linkedin.com/in/md-amir-khan-a0849a236?",
+            "githubUrl": "https://github.com/aamiiir",
+            "twitterUrl": "https://x.com/aamiiiiiiiirrr?s=21",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Rounak Kayal",
+            "role": "Graphic Designer",
+            "linkedinUrl": "https://www.linkedin.com/in/rounak-kayal-728714227",
+            "githubUrl": "https://github.com/rk2003kayal",
+            "twitterUrl": "",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Riya Kumari",
+            "role": "Web Technologies Facilitator",
+            "linkedinUrl": "https://www.linkedin.com/in/riya-kumari-902432224/",
+            "githubUrl": "https://github.com/CSERiya",
+            "twitterUrl": "",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "GOURAV RAJAK",
+            "role": "AI/ML Facilitator",
+            "linkedinUrl": "https://www.linkedin.com/in/gourav-rajak-012947242/",
+            "githubUrl": "",
+            "twitterUrl": "",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Rajdip Sinha",
+            "role": "Frontend Lead",
+            "linkedinUrl": "https://www.linkedin.com/in/rajdip-sinha-23789a220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "githubUrl": "http://github.com/rajdips834",
+            "twitterUrl": "https://x.com/rajdips834?t=K0E58jxs0sleVQUDzLAvjw&s=09",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Shivam kumar shaw",
+            "role": "CP Faciliator",
+            "linkedinUrl": "https://www.linkedin.com/in/shivam-shaw-1b3690252",
+            "githubUrl": "https://github.com/shivamshaw07",
+            "twitterUrl": "https://x.com/shivamshaw007?t=KXNC-AeZDDKuI9KwfW1gsQ&s=08",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Bikash Agarwala",
+            "role": "Web Technologies Facilitator",
+            "linkedinUrl": "http://www.linkedin.com/in/bikash-agarwala-283873229",
+            "githubUrl": "https://github.com/Bikash-Agrawala",
+            "twitterUrl": "",
+            "websiteUrl": "",
+            "roleType": 3
+        },
+        {
+            "name": "Bhumi Sinha ",
+            "role": "Content Writer",
+            "linkedinUrl": "https://www.linkedin.com/in/bhumi-sinha-ba4aab258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "githubUrl": "https://github.com/BHUMISINHA18",
+            "twitterUrl": "https://x.com/Bhumisinha__?t=TtMv_bZOYjBk44L9bP1D7w&s=09",
+            "websiteUrl": "",
+            "roleType": 3
+        }
+    ]
+}
