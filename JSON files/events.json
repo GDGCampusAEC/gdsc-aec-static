@@ -1,0 +1,62 @@
+{
+    "events": {
+        "past": [
+            {
+                "title": "Info Session",
+                "description": "An inaugural information session for Google Developer Student Clubs (GDSC), introducing the club's purpose, goals, and activities to new members. This first meeting sets the foundation for collaboration, learning, and innovation within the tech community.",
+                "image": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.47_mul_h_sub_0.47_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/event_banners/Info%20Session_OWGEtD2.png",
+                "time": "Friday, August 25, 2023, 8:00 – 9:00 PM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-info-session/"
+            },
+            {
+                "title": "Code Sprint 1 Discussion",
+                "description": "Register here for the contest https://www.hackerrank.com/code-sprint-01 CP Leads will discuss the Codes of CodeSprint1",
+                "image": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.11_mul_h_sub_0.11_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/event_banners/CodeSprint.png",
+                "time": "Sunday, September 3, 2023, 8:00 – 8:45 PM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-code-sprint-1-discussion/"
+            },
+            {
+                "title": "Introduction to Web Technologies",
+                "description": "Get Involved with us in a 3 day 6hrs workshop",
+                "image": "https://res.cloudinary.com/startup-grind/image/fetch/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-dsc/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_NP7kmba.png",
+                "time": "September 16, 2023 at 7:30 PM GMT+5:30 – September 19, 2023 at 10:10 PM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-introduction-to-web-technologies/"
+            },
+            {
+                "title": "Introduction to Google Cloud Study Jam",
+                "description": "Google Cloud is a cloud computing platform offered by Google, providing a suite of services for computing, storage, data analytics, machine learning, and more. A Google Cloud Study Jam is a hands-on learning event or workshop aimed at helping participants gain practical experience and skills in using Google Cloud services and tools. ",
+                "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/1pzypmryh6c41_fKhmGRV_cV5eEYD.png",
+                "time": "Sunday, September 24, 2023, 7:30 – 10:00 PM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-introduction-to-google-cloud-study-jam/"
+            },
+            {
+                "title": "DSA Essentials: Building Blocks for Placements and CP",
+                "description": "Looking to make a positive contribution this Hacktoberfest? Here's your chance! Join us as we collaborate on our community website project. 👉 Repository Link: https://github.com/gdsc-aec-india/gdsc-aec-web",
+                "image": "https://res.cloudinary.com/startup-grind/image/fetch/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-dsc/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_fMd5BWp.png",
+                "time": "Thursday, September 28, 2023, 7:30 – 10:00 PM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-dsa-essentials-building-blocks-for-placements-and-cp/"
+            },
+            {
+                "title": "HacktoberFest",
+                "description": "Become a LinkedIn networking pro in our exclusive session, \"LinkedIn Networking Pro: Unleash Your Potential.\" Dive deep into profile optimization, expanding your network strategically, content engagement, and advanced techniques. Don't miss this chance to supercharge your LinkedIn presence - secure your spot now!",
+                "image": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.03_mul_h_sub_0.03_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/event_banners/Poster_RgoVQ20.jpeg",
+                "time": "October 1, 2023 at 9:15 AM GMT+5:30 – October 31, 2023 at 9:16 AM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-hacktoberfest/"
+            },
+            {
+                "title": "Networking on Linkedin",
+                "description": "Become a LinkedIn networking pro in our exclusive session, \"LinkedIn Networking Pro: Unleash Your Potential.\" Dive deep into profile optimization, expanding your network strategically, content engagement, and advanced techniques. Don't miss this chance to supercharge your LinkedIn presence - secure your spot now!",
+                "image": "https://res.cloudinary.com/startup-grind/image/fetch/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-dsc/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_fMd5BWp.png",
+                "time": "Thursday, October 12, 2023, 7:30 – 10:00 PM GMT+5:30",
+                "venue": "Virtual",
+                "href": "https://gdsc.community.dev/events/details/developer-student-clubs-asansol-engineering-college-asansol-presents-networking-on-linkedin/"
+            }
+        ]
+    }
+}
