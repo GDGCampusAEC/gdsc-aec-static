@@ -626,3 +626,14 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 body.dark .logo img {
     filter: brightness(100%);
 }
+
+#contact-h1{
+    margin: 2rem auto;
+    background-image: linear-gradient(45deg, blue, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+    }
+    

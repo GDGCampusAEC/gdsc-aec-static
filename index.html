@@ -562,38 +562,43 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="mt-6">
+    
+<section id="contact" class="mt-6" style="background-color: #f0f0f0; padding: 10px 0;">
+    <div id="contact-container">
         <div class="container">
             <div class="row">
-                <h1 class="title mt-4 col-5 offset-6"><b>Get in Touch</b></h1>
-                <p class="col-7 offset-5">If you have any questions or inquiries, feel free to Ask us</p>
+                <h1 id="contact-h1" class="title mt-4 col-12 text-center" style="font-family: 'Arial', sans-serif;"><b>Get in Touch</b></h1>
+                <p class="col-12 text-center" style="color: #555; font-family: 'Arial', sans-serif;">If you have any questions or inquiries, feel free to ask us.</p>
             </div>
         </div>
-        <div class="row">
-            <form id="contact-form" class="col-5 offset-6">
-                <div>
-                    <label for="name" class="form-label"></label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div>
-                    <label for="email" class="form-label"></label>
-                    <input type="text" class="form-control" placeholder="Email address" id="email">
-                </div>
-                <div>
-                    <label for="number" class="form-label"></label>
-                    <input type="number" class="form-control" placeholder="Phone number" id="number" required>
-                </div>
-                <div>
-                    <label for="name" class="form-label"></label>
-                    <textarea type="text" class="form-control" placeholder="Your message" id="message" rows="4"
-                        required></textarea>
-                </div>
-                <div class="col-4 offset-4 mb-3 mt-4">
-                    <button type="submit" class="btn btn-primary"
-                        style="align-items: center;"><span>Submit</span></button>
-                </div>
-            </form>
+        <div class="container">
+            <div class="row">
+                <form class="col-md-6 offset-md-3">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email address" id="email">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Phone number" id="number" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Your message" id="message" rows="4" required></textarea>
+                        </div>
+
+                      <div class="col-12 text-center mb-4 mt-2">
+                            <button type="submit" id="contact-btn" class="btn btn-primary" style="background-color: #4285f4; border: none; border-radius: 50px; transition: background-color 0.3s;">
+                                <span style="font-family: 'Arial', sans-serif; color: #fff;">Submit</span>
+                            </button>
+                        </div>
+                </form>
+            </div>
         </div>
+    </div>
     </section>
     <!-- Footer Section -->
     <footer class="footer">
