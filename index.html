@@ -70,7 +70,7 @@
                                             </div>
                                         </li>
                                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                            <a class="nav-link" href="#">Contacts</a>
+                                            <a class="nav-link" href="#contact">Contacts</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -562,37 +562,34 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="mt-6">
+    <section id="contact" class="mt-6 ">
         <div class="container">
-            <div class="row">
-                <h1 class="title mt-4 col-5 offset-6"><b>Get in Touch</b></h1>
-                <p class="col-7 offset-5">If you have any questions or inquiries, feel free to Ask us</p>
+            <div class="row justify-content-center">
+                <!-- Image goes on the left -->
+                <div class="col-md-5 ">
+                    <img src="assets/contactus.png" alt="Contact Image" class="img-fluid mb-4" />
+                </div>
+                <!-- Contact form content on the right -->
+                <div class="col-md-7 ">
+                    <h1 class="title mt-4"><b>Get in Touch</b></h1>
+                    <p>If you have any questions or inquiries, feel free to Ask us</p>
+                    <form class="mt-4" id="contact-form">
+                        <div class="mb-4">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your Email" id="email" required>
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" placeholder="Your Message" id="message" rows="4"
+                                required></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <button type="submit" class="btn btn-primary btn-lg"><span>Submit</span></button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <form id="contact-form" class="col-5 offset-6">
-                <div>
-                    <label for="name" class="form-label"></label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div>
-                    <label for="email" class="form-label"></label>
-                    <input type="text" class="form-control" placeholder="Email address" id="email">
-                </div>
-                <div>
-                    <label for="number" class="form-label"></label>
-                    <input type="number" class="form-control" placeholder="Phone number" id="number" required>
-                </div>
-                <div>
-                    <label for="name" class="form-label"></label>
-                    <textarea type="text" class="form-control" placeholder="Your message" id="message" rows="4"
-                        required></textarea>
-                </div>
-                <div class="col-4 offset-4 mb-3 mt-4">
-                    <button type="submit" class="btn btn-primary"
-                        style="align-items: center;"><span>Submit</span></button>
-                </div>
-            </form>
         </div>
     </section>
     <!-- Footer Section -->
