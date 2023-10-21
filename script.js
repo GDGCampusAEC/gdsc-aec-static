@@ -53,11 +53,10 @@ $("#contact-form").submit(function (e) {
     var data = {
         name: $("#name").val(),
         email: $("#email").val(),
-        Number: $("#number").val(),
         message: $("#message").val(),
     };
-    console.log(data);
-    var msg = `Name: ${data.name}\nEmail: ${data.email}\nNumber: ${data.Number}\nMessage: ${data.message}`;
+    // console.log(data);
+    var msg = `Name: ${data.name}\nEmail: ${data.email}\nMessage: ${data.message}`;
     console.log(msg);
     var discordUrl =
         "https://discord.com/api/webhooks/1164479973877354508/Q-wGZb34MkGodGbMsZaRIEgYK8BsJBotMhHVplF8n7z9I_4RxqAMB7Hk9aYUHD8pzuLF";
