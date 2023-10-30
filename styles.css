@@ -41,6 +41,10 @@ body {
     }
     
 }
+.navbar-nav{
+    background-color: rgb(248,249,250);
+}
+
 .navbar{
     height:15vh;
 }
@@ -612,7 +616,6 @@ form button:hover {
         display: none;
     }
 }
-
 /* responsiveness for small devices  */
 @media (max-width: 500px) {
     #hero {
