@@ -145,6 +145,17 @@ nav {
     transition: 0.5s;
     text-shadow: 0 0 2px #000;
 }
+@media screen and (max-width: 750px) {
+    .hero--text h1 {
+        font-size: 8vw;
+        font-weight: 600;
+        transition: all 0.5s ease 0s;
+        text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+    }
+    .hero--content p {
+        font-size: 3.5vw;
+    }
+}
 
 .hero--text h1:hover {
     -webkit-text-stroke: 2px #edeced;
