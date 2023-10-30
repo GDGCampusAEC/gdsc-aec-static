@@ -64,6 +64,7 @@ nav {
 
 /* Hero Section */ 
 #hero {
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -76,6 +77,25 @@ nav {
     top: 1px;
     z-index: -1;
 } 
+
+@media (max-width: 768px) {
+  .hero--image {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1px;
+    z-index: -1;
+}    
+.hero--image img {
+    max-width: 100vw;
+    /* top: 76px; */
+    position: relative;
+    height: auto;
+}
+
+}
+
 
 .hero--image img {
     max-width: 100%;
@@ -181,6 +201,13 @@ nav {
     font-size: 3rem;
     text-align: left;
     padding-top: 5vw 0vw 0vw 0vw;
+}
+@media (max-width: 768px) {
+    .about-us h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-left: 2rem; 
+    }
 }
 .about1{
     position: absolute;
@@ -592,7 +619,7 @@ form button:hover {
         gap: 2rem;
         justify-content: center;
         flex-direction: column;
-        padding: 0 2rem;
+        padding: 0rem;
     }
 
     #hero .hero-image img {
