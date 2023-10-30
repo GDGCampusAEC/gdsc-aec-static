@@ -253,9 +253,20 @@ nav {
 }
 #events h2 {
    text-align: center;
-   color: blue;
+
+   color: rgb(66,133,245);
+}
+#events h6 {
+   text-align: center;
+   
 }
 
+@media (min-width: 768px) {
+    #events h6 {
+        text-align: center;
+        visibility: hidden;
+     }
+}
 
 #contact {
     text-align: center;
