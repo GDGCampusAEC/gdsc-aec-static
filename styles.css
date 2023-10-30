@@ -380,7 +380,37 @@ form button:hover {
 .team-card-container:nth-child(4n + 2) .team-card {
     border-bottom: 4px solid #3cba54;
 }
+/* added */
 
+#team {
+    overflow: hidden; /* Hide content that overflows the section */
+    position: relative; /* Ensure the section is relatively positioned for child elements */
+}
+
+.team-bg-img {
+    display: flex; /* Use flexbox to center images horizontally */
+    justify-content: space-between; /* Create space between images */
+}
+
+.team-bg-img img {
+    width: calc(50% - 120px); /* Adjust the width to 50% of the screen minus spacing */
+    height: auto;
+}
+
+.team-bg-img img:nth-child(odd) {
+    transform: scaleX(-1); /* Flip odd-indexed images horizontally */
+}
+
+.team-bg-img img:nth-child(1) {
+    margin-left: -60px; /* Adjust margin for the first image */
+}
+
+.team-bg-img img:nth-child(8) {
+    margin-right: -60px; /* Adjust margin for the last image */
+}
+
+
+/* added */
 .team-bg-img {
     filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1));
 }
